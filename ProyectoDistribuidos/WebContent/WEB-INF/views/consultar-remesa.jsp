@@ -63,7 +63,7 @@
     <br />
     <h3>Consultar Estado de Remesa</h3>
 
-    <form action="" method="post" />
+    <form action="" method="post">
     
         <fieldset>
         
@@ -78,7 +78,7 @@
                 
         </fieldset>
         
-        </form> 
+       </form> 
     
     </div>
 	

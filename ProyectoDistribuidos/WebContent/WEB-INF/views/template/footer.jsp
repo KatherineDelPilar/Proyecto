@@ -152,3 +152,5 @@
  
     });
 </script>
+
+<input id="urlHome" value="${pageContext.request.contextPath}/" type="hidden" />
