@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="DSD.Entidades"
+                   namespace=""
+                   default-lazy="false">
+  <class name="Remesa" table="Remesa">
+    <id name="Numero" column="Numero">
+      <generator class="increment" />
+    </id>
+    <property name="PIN" column="PIN" />
+    <property name="Fecha" column="Fecha" />
+    <many-to-one name ="Agencia" column="IDAgencia" />
+    <many-to-one name ="Moneda" column="IDMoneda" />
+    <property name="Monto" column="Monto" />
+    <property name="Estado" column="Estado" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+D:\Nvr\Workspace\ProyectoDSD\DSD.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+D:\Nvr\Workspace\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.AccesoDatos.dll
+D:\Nvr\Workspace\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.AccesoDatos.pdb
+D:\Nvr\Workspace\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.Entidades.dll
+D:\Nvr\Workspace\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.Entidades.pdb
+D:\Nvr\Workspace\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.dll
+D:\Nvr\Workspace\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.AccesoDatos.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.AccesoDatos.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.Entidades.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\bin\Debug\Iesi.Collections.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\bin\Debug\NHibernate.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.csprojResolveAssemblyReference.cache
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.AccesoDatos.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.AccesoDatos.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.Entidades.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\Iesi.Collections.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\NHibernate.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.csprojResolveAssemblyReference.cache
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.pdb

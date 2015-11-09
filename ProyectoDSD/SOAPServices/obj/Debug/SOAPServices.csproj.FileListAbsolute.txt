@@ -1,0 +1,33 @@
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\bin\SOAPServices.dll
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\bin\SOAPServices.pdb
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\obj\Debug\ResolveAssemblyReference.cache
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.dll
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.pdb
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\bin\DSD.AccesoDatos.dll
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\bin\DSD.Entidades.dll
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\bin\DSD.AccesoDatos.pdb
+D:\Nvr\Workspace\ProyectoDSD\SOAPServices\bin\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\SOAPServices.dll.config
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\SOAPServices.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\SOAPServices.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\DSD.AccesoDatos.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\DSD.Entidades.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\NHibernate.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\Iesi.Collections.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\DSD.AccesoDatos.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\bin\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.csprojResolveAssemblyReference.cache
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\SOAPServices.dll.config
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\SOAPServices.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\SOAPServices.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\DSD.AccesoDatos.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\DSD.Entidades.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\NHibernate.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\Iesi.Collections.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\DSD.AccesoDatos.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\bin\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.csprojResolveAssemblyReference.cache
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.pdb

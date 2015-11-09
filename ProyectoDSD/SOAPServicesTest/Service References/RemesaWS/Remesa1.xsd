@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Agencia">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Agencia" nillable="true" type="tns:Agencia" />
+  <xs:complexType name="Moneda">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Simbolo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Moneda" nillable="true" type="tns:Moneda" />
+  <xs:complexType name="Remesa">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Agencia" nillable="true" type="tns:Agencia" />
+      <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Moneda" nillable="true" type="tns:Moneda" />
+      <xs:element minOccurs="0" name="Monto" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Numero" type="xs:int" />
+      <xs:element minOccurs="0" name="PIN" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Remesa" nillable="true" type="tns:Remesa" />
+  <xs:complexType name="ArrayOfRemesa">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Remesa" nillable="true" type="tns:Remesa" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRemesa" nillable="true" type="tns:ArrayOfRemesa" />
+</xs:schema>

@@ -1,0 +1,13 @@
+D:\Nvr\Workspace\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.dll
+D:\Nvr\Workspace\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.pdb
+D:\Nvr\Workspace\ProyectoDSD\DSD.Entidades\obj\Debug\ResolveAssemblyReference.cache
+D:\Nvr\Workspace\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.dll
+D:\Nvr\Workspace\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Semana03\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.pdb
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.dll
+G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.pdb
