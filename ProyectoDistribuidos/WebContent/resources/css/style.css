@@ -93,7 +93,7 @@
 	width: 100%;
 }
 .one_half {
-	width: 48%;
+	width: 100%;
 }
 .one_third {
 	width: 30.650%;
@@ -1366,7 +1366,7 @@ a.scrollup:hover{
 	width: 100%;
 	float: left;
 	width: 100%;
-	margin-top: 70px;
+	margin-top: 130px;
 	padding: 28px 0px;
 	border-bottom: 1px solid #f3f3f3;
 }

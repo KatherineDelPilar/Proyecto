@@ -64,52 +64,59 @@
 					<form action="" method="post">
 
 						<fieldset>
-
-
-							<label for="name" class="blocklabel">Sucursal: </label>
-							<p class="">
-								<select name="sucursalname" class="input_bg" id="sucursal">
-									<option value="Surco">Surco</option>
-									<option value="sjl">San Juan de Lurigancho</option>
-								</select>
-							</p>
-							<br> <br> <br>
-							
-							<label for="name" class="blocklabel">ID transacción: </label>
-							<p class="">
-								<input name="transaccion" class="input_bg" type="text"
-										id="idtransaccion" value='' />
-							</p>
-							<br> <br> <br>
-							
-							<label for="name" class="blocklabel">Desde: </label>
-							<p class="">
-								<input name="fechadesdename" class="input_bg" type="text"
-										id="idfechadesde" value='' />
-							</p>
-							<br> <br> <br>
-							
-							<label for="name" class="blocklabel">Hasta: </label>
-							<p class="">
-								<input name="fechahastaname" class="input_bg" type="text"
-										id="idfechahasta" value='' />
-							</p>
-							<br> <br> <br>
-							
-							<label for="name" class="blocklabel">Estado: </label>
-							<p class="">
-								<select name="estadoname" class="input_bg" id="estado">
-									<option value="entransito">En tránsito</option>
-									<option value="cobrada">Cobrada</option>
-								</select>
-							</p>
-							<br> <br> <br> <br>
-							
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada" type="button" value="Buscar"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada" />
-							</p>
+							<table class="table-style">
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Sucursal: </label>
+										<p class=""> 
+											<select name="sucursalname" class="input_bg" id="sucursal">
+												<option value="Surco">Surco</option>
+												<option value="sjl">San Juan de Lurigancho</option>
+											</select> 
+										</p>
+									</td>
+									<td>
+										<label for="name" class="blocklabel">ID transacción: </label>
+										<p class="">
+											<input name="transaccion" class="input_bg" type="text"
+											id="idtransaccion" value='' />
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Desde: </label>
+										<p class="">
+											<input name="fechadesdename" class="input_bg" type="text"
+											id="idfechadesde" value='' />
+										</p>
+									</td>
+									<td>
+										<label for="name" class="blocklabel">Hasta: </label>
+										<p class="">
+											<input name="fechahastaname" class="input_bg" type="text"
+											id="idfechahasta" value='' />
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Estado: </label>
+										<p class="">
+											<select name="estadoname" class="input_bg" id="estado">
+												<option value="entransito">En tránsito</option>
+												<option value="cobrada">Cobrada</option>
+											</select>
+										</p>
+									</td>
+									<td>
+										<p>
+											<input name="SendRemesaCobrada" type="button" value="Buscar"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada" />
+										</p>
+									</td>
+								</tr>
+							</table>
 
 						</fieldset>
 

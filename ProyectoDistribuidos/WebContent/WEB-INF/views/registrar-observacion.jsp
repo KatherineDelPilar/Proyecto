@@ -65,22 +65,25 @@
 
 						<fieldset>
 
-
-							<label for="name" class="blocklabel">Número de transacción: </label>
-							<p class="">
-								<input name="transaccion" class="input_bg" type="text"
-										id="idtransaccion" value='' />
-							</p>
-							<br> <br> <br> <br>
-
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada" type="button" value="Buscar"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada" />
-							</p>
-							<br> <br>
+							<table class="table-style">
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Número de transacción: </label>
+										<p class="">
+											<input name="transaccion" class="input_bg" type="text"
+											id="idtransaccion" value='' />
+										</p>		
+									</td>
+									<td>
+										<p>
+											<input name="SendRemesaCobrada" type="button" value="Buscar"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada" />
+										</p>
+									</td>
+								</tr>
+							</table>
 							
-<!-- 							<div class="clearfix divider_line8"></div> -->
+							<div class="clearfix divider_line8"></div>
 
 							<div id="tablaBusquedaRemesaPorCobrar" style="display: true" class="one_full">
 			
@@ -100,20 +103,25 @@
 								</div>
 			
 							</div>
-							
+						
 							<br> <br> <br> <br>
 							
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada1" type="button" value="Añadir"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada1" />
-							</p>
- 							<br>
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada2" type="button" value="Borrar"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada2" />
-							</p>
+							<table class="table-style">
+								<tr>
+									<td>
+										<p>
+											<input name="SendRemesaCobrada1" type="button" value="Añadir"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada1" />
+										</p>
+									</td>
+									<td>
+										<p>
+											<input name="SendRemesaCobrada2" type="button" value="Borrar"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada2" />
+										</p>
+									</td>
+								</tr>
+							</table>
 							
 						</fieldset>
 

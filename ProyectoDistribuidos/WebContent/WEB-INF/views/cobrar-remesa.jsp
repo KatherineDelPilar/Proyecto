@@ -64,36 +64,49 @@
 					<form action="" method="post">
 
 						<fieldset>
-
-
-							<label for="name" class="blocklabel">Tipo de documento: </label>
-							<p class="">
-								<select name="sucursalname" class="input_bg" id="sucursal">
-									<option value="dni">DNI</option>
-									<option value="ruc">RUC</option>
-								</select>
-							</p>
-							<br> <br> <br>
-							
-							<label for="name" class="blocklabel">Número de documento: </label>
-							<p class="">
-								<input name="transaccion" class="input_bg" type="text"
-										id="idtransaccion" value='' />
-							</p>
-							<br> <br> <br>
-							
-							<label for="name" class="blocklabel">PIN: </label>
-							<p class="">
-								<input name="fechadesdename" class="input_bg" type="text"
-										id="idfechadesde" value='' />
-							</p>
-							<br> <br> <br> <br>
+						
+							<table class="table-style">
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Tipo de documento: </label>
+										<p class="">
+											<select name="sucursalname" class="input_bg" id="sucursal">
+												<option value="dni">DNI</option>
+												<option value="ruc">RUC</option>
+											</select>
+										</p>
+									</td>
+									<td>
+										<p>
+											<input name="SendRemesaCobrada1" type="button" value="Buscar"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada1" />
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Número de documento: </label>
+										<p class="">
+											<input name="transaccion" class="input_bg" type="text"
+											id="idtransaccion" value='' />
+										</p>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">PIN: </label>
+										<p class="">
+											<input name="fechadesdename" class="input_bg" type="text"
+											id="idfechadesde" value='' />
+										</p>
+									</td>
+									<td></td>
+								</tr>
+							</table>
 							
 							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada1" type="button" value="Buscar"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada1" />
-							</p>
+
 							<br>
 							<p>
 								<input name="SendRemesaCobrada2" type="button" value="Generar Cobro"
@@ -106,7 +119,7 @@
 
 				</div>
 
-				<div class="clearfix divider_line8"></div>
+<!-- 				<div class="clearfix divider_line8"></div> -->
 
 
 <!-- 				<div id="tablaBusquedaRemesaPorCobrar" style="display: none" class="one_full"> -->

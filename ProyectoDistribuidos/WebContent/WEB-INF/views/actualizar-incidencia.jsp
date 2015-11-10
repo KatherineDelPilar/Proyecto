@@ -65,36 +65,40 @@
 
 						<fieldset>
 
-
-							<label for="name" class="blocklabel">Nro. transacción: </label>
-							<p class="">
-								<input name="transaccion" class="input_bg" type="text"
-										id="idtransaccion" value='' />
-							</p>
-							<br> <br> <br>
-
-							<label for="name" class="blocklabel">Orden de Fecha: </label>
-							<p class="">
-								<input type="radio" name="group1" value="ascendente">
-								Ascendente<br> <input type="radio" name="group1"
-									value="descendente"> Descendente<br>
-							</p>
-							<br>
+							<table class="table-style">
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Nro. transacción: </label>
+										<p class="">
+											<input name="transaccion" class="input_bg" type="text"
+											id="idtransaccion" value='' />
+										</p>
+									</td>
+									<td>
+										<p class="">
+											<input name="SendRemesaCobrada1" type="button" value="Nueva"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada1" />
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Orden de Fecha: </label>
+										<p class="">
+											<input type="radio" name="group1" value="ascendente">Ascendente<br>
+											<input type="radio" name="group1" value="descendente">Descendente<br>
+										</p>
+									</td>
+									<td>
+										<p class="">
+											<input name="SendRemesaCobrada2" type="button" value="Buscar"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada2" />
+										</p>	
+									</td>
+								</tr>
+							</table>
 							
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada1" type="button" value="Nueva"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada1" />
-							</p>
-							
-							<br>
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada2" type="button" value="Buscar"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada2" />
-							</p>
-							<br>
-<!-- 							<div class="clearfix divider_line8"></div> -->
+							<div class="clearfix divider_line8"></div>
 
 							<div id="tablaBusquedaRemesaPorCobrar" style="display: true" class="one_full">
 			
@@ -119,18 +123,22 @@
 							</div>
 							<!-- end tables -->
 							
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada3" type="button" value="Ver Detalle"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada3" />
-							</p>
-							
-							<br>
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada4" type="button" value="Dar Atención"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada4" />
-							</p>
+							<table class="table-style">
+								<tr>
+									<td>
+										<p>
+											<input name="SendRemesaCobrada3" type="button" value="Ver Detalle"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada3" />
+										</p>	
+									</td>
+									<td>
+										<p>
+											<input name="SendRemesaCobrada4" type="button" value="Dar Atención"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada4" />
+										</p>
+									</td>
+								</tr>
+							</table>
 
 						</fieldset>
 

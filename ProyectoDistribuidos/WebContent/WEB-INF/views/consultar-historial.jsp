@@ -65,33 +65,39 @@
 
 						<fieldset>
 
-
-							<label for="name" class="blocklabel">Identificación: </label>
-							<p class="">
-								<input name="identificacionname" class="input_bg" type="text"
-									id="identificacion" value='' />
-							</p>
-							<br> <br> <br> 
-							<label for="name"
-								class="blocklabel">Desde: </label>
-							<p class="">
-								<input name="fechadesdename" class="input_bg" type="text"
-									id="idfechadesde" value='' />
-							</p>
-							<br> <br> <br> 
-							<label for="name"
-								class="blocklabel">Hasta: </label>
-							<p class="">
-								<input name="fechahastaname" class="input_bg" type="text"
-									id="idfechahasta" value='' />
-							</p>
-							<br> <br> <br> <br>
-
-							<div class="clearfix"></div>
-							<p>
-								<input name="SendRemesaCobrada" type="button" value="Buscar"
-									class="comment_submit" id="btnMostarTablaRemesaCobrada" />
-							</p>
+							<table class="table-style">
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Desde: </label>
+										<p class="">
+											<input name="fechadesdename" class="input_bg" type="text"
+											id="idfechadesde" value='' />
+										</p>
+									</td>
+									<td>
+										<label for="name" class="blocklabel">Hasta: </label>
+										<p class="">
+											<input name="fechahastaname" class="input_bg" type="text"
+											id="idfechahasta" value='' />
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="name" class="blocklabel">Identificación: </label>
+										<p class="">
+											<input name="identificacionname" class="input_bg" type="text"
+											id="identificacion" value='' />
+										</p>
+									</td>
+									<td>
+										<p>
+											<input name="SendRemesaCobrada" type="button" value="Buscar"
+											class="comment_submit" id="btnMostarTablaRemesaCobrada" />
+										</p>
+									</td>
+								</tr>
+							</table>
 
 						</fieldset>
 
