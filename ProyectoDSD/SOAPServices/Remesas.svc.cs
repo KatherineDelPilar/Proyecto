@@ -76,7 +76,7 @@ namespace SOAPServices
 
             if (horaActual >= 0 && horaActual <= 2)
             {
-                throw new FaultException<HoraExcedidaException>(new HoraExcedidaException("La información mostrada no puede ser actualizada"));
+                throw new FaultException<HoraExcedidaException>(new HoraExcedidaException("La informaci\u00f3n mostrada no puede ser actualizada"));
             }
         }
     }
