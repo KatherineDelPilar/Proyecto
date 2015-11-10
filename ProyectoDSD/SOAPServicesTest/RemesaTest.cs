@@ -12,7 +12,7 @@ namespace SOAPServicesTest
         {
             RemesasWS.RemesasClient proxy = new RemesasWS.RemesasClient();            
             Remesa remesaObtener = proxy.ObtenerRemesa(2);
-            Assert.AreNotEqual(null, remesaObtener);
+            Assert.AreNotEqual(null, remesaObtener); 
         }
 
         //[TestMethod]
