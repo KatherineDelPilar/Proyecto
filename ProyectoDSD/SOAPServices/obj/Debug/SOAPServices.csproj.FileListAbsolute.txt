@@ -31,3 +31,15 @@ G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\b
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.csprojResolveAssemblyReference.cache
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.dll
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.csprojResolveAssemblyReference.cache
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\obj\Debug\SOAPServices.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\SOAPServices.dll.config
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\SOAPServices.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\SOAPServices.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\DSD.AccesoDatos.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\DSD.Entidades.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\NHibernate.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\Iesi.Collections.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\DSD.AccesoDatos.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServices\bin\DSD.Entidades.pdb

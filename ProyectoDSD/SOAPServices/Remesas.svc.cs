@@ -9,9 +9,10 @@ using System.Text;
 namespace SOAPServices
 {
     // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código, en svc y en el archivo de configuración.
-    public class RemesaEjecutarOperacion : IRemesa
+    public class Remesas : IRemesas
     {
         private RemesaDAO remesaDAO = null;
+
         private RemesaDAO DAO
         {
             get

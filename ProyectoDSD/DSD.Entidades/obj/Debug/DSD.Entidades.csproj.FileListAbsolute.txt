@@ -11,3 +11,7 @@ G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.Entidades\
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.pdb
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.dll
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.Entidades\bin\Debug\DSD.Entidades.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.Entidades\obj\Debug\DSD.Entidades.pdb

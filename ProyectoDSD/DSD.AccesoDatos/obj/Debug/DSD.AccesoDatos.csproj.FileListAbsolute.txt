@@ -23,3 +23,12 @@ G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDato
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.csprojResolveAssemblyReference.cache
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.dll
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.AccesoDatos.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.AccesoDatos.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.Entidades.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\Iesi.Collections.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\NHibernate.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\bin\Debug\DSD.Entidades.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.csprojResolveAssemblyReference.cache
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\DSD.AccesoDatos\obj\Debug\DSD.AccesoDatos.pdb

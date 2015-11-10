@@ -63,7 +63,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Remesa.svc" />
+    <Content Include="Remesas.svc" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -73,10 +73,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Remesa.svc.cs">
-      <DependentUpon>Remesa.svc</DependentUpon>
+    <Compile Include="Remesas.svc.cs">
+      <DependentUpon>Remesas.svc</DependentUpon>
     </Compile>
-    <Compile Include="IRemesa.cs" />
+    <Compile Include="IRemesas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
