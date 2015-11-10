@@ -39,6 +39,7 @@ namespace SOAPServices
 
         public Remesa ObtenerRemesa(int numero)
         {
+            validarHora();
             return DAO.Obtener(numero);
         }
 
@@ -66,6 +67,17 @@ namespace SOAPServices
         public List<Remesa> ListarRemesas()
         {
             return DAO.ListarTodos().ToList();
+        }
+
+        private void validarHora(){
+            DateTime fechaActual = DateTime.Now;
+
+            int horaActual = fechaActual.Hour;
+
+            if (horaActual >= 0 && horaActual <= 2)
+            {
+                throw new FaultException<HoraExcedidaException>(new HoraExcedidaException("La información mostrada no puede ser actualizada"));
+            }
         }
     }
 }

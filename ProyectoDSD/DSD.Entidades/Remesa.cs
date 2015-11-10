@@ -23,3 +23,14 @@ public class Remesa
     public String Estado { get; set; }
 }
 
+[DataContract]
+public class HoraExcedidaException {
+
+    [DataMember]
+    public string DetalleError;
+
+    public HoraExcedidaException(string error)
+    {
+        DetalleError = error;
+    }
+}

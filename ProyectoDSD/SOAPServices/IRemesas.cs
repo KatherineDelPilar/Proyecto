@@ -13,18 +13,23 @@ namespace SOAPServices
     public interface IRemesas
     {
         [OperationContract]
+        [FaultContract(typeof(HoraExcedidaException))]
         Remesa CrearRemesa(int pin, DateTime fecha, Agencia agencia, Moneda moneda, decimal monto);
 
         [OperationContract]
+        [FaultContract(typeof(HoraExcedidaException))]
         Remesa ObtenerRemesa(int numero);
 
         [OperationContract]
+        [FaultContract(typeof(HoraExcedidaException))]
         Remesa ModificarRemesa(int numero, int pin, DateTime fecha, Agencia agencia, Moneda moneda, decimal monto, string estado);
 
         [OperationContract]
+        [FaultContract(typeof(HoraExcedidaException))]
         void EliminarRemesa(int numero);
 
         [OperationContract]
+        [FaultContract(typeof(HoraExcedidaException))]
         List<Remesa> ListarRemesas();
     }
 }
