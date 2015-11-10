@@ -46,8 +46,7 @@
 
 
 					<div id="errorHora" style="display: none;" class="notice">
-						<div class="message-box-wrap">La informaci&oacute;n mostrada no
-							puede ser actualizada</div>
+						<div class="message-box-wrap"></div>
 					</div>
 
 					<div id="errorNumeroInvalido" style="display: none;"  class="error">

@@ -35,6 +35,7 @@ $(document).ready(function($) {
 					     $('#tBodyBusqueda').html(html);
 					}else if(result.resultado == "1"){
 						$('#errorHora').show();
+						$('#errorHora .message-box-wrap').html(result.mensaje);
 					}else if(result.resultado == "2"){
 						$('#errorNumeroInvalido').show();
 					}
