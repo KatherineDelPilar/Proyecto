@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SOAPServicesTest.RemesaWS {
+namespace SOAPServicesTest.RemesasWS {
     using System.Runtime.Serialization;
     using System;
     
@@ -193,7 +193,7 @@ namespace SOAPServicesTest.RemesaWS {
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private SOAPServicesTest.RemesaWS.Agencia AgenciaField;
+        private SOAPServicesTest.RemesasWS.Agencia AgenciaField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string EstadoField;
@@ -202,7 +202,7 @@ namespace SOAPServicesTest.RemesaWS {
         private System.DateTime FechaField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private SOAPServicesTest.RemesaWS.Moneda MonedaField;
+        private SOAPServicesTest.RemesasWS.Moneda MonedaField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private decimal MontoField;
@@ -224,7 +224,7 @@ namespace SOAPServicesTest.RemesaWS {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SOAPServicesTest.RemesaWS.Agencia Agencia {
+        public SOAPServicesTest.RemesasWS.Agencia Agencia {
             get {
                 return this.AgenciaField;
             }
@@ -263,7 +263,7 @@ namespace SOAPServicesTest.RemesaWS {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public SOAPServicesTest.RemesaWS.Moneda Moneda {
+        public SOAPServicesTest.RemesasWS.Moneda Moneda {
             get {
                 return this.MonedaField;
             }
@@ -324,89 +324,139 @@ namespace SOAPServicesTest.RemesaWS {
         }
     }
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="RemesaWS.IRemesa")]
-    public interface IRemesa {
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="HoraExcedidaException", Namespace="http://schemas.datacontract.org/2004/07/")]
+    [System.SerializableAttribute()]
+    public partial class HoraExcedidaException : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/CrearRemesa", ReplyAction="http://tempuri.org/IRemesa/CrearRemesaResponse")]
-        SOAPServicesTest.RemesaWS.Remesa CrearRemesa(int pin, System.DateTime fecha, SOAPServicesTest.RemesaWS.Agencia agencia, SOAPServicesTest.RemesaWS.Moneda moneda, decimal monto);
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/CrearRemesa", ReplyAction="http://tempuri.org/IRemesa/CrearRemesaResponse")]
-        System.Threading.Tasks.Task<SOAPServicesTest.RemesaWS.Remesa> CrearRemesaAsync(int pin, System.DateTime fecha, SOAPServicesTest.RemesaWS.Agencia agencia, SOAPServicesTest.RemesaWS.Moneda moneda, decimal monto);
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DetalleErrorField;
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/ObtenerRemesa", ReplyAction="http://tempuri.org/IRemesa/ObtenerRemesaResponse")]
-        SOAPServicesTest.RemesaWS.Remesa ObtenerRemesa(int numero);
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/ObtenerRemesa", ReplyAction="http://tempuri.org/IRemesa/ObtenerRemesaResponse")]
-        System.Threading.Tasks.Task<SOAPServicesTest.RemesaWS.Remesa> ObtenerRemesaAsync(int numero);
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string DetalleError {
+            get {
+                return this.DetalleErrorField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DetalleErrorField, value) != true)) {
+                    this.DetalleErrorField = value;
+                    this.RaisePropertyChanged("DetalleError");
+                }
+            }
+        }
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/ModificarRemesa", ReplyAction="http://tempuri.org/IRemesa/ModificarRemesaResponse")]
-        SOAPServicesTest.RemesaWS.Remesa ModificarRemesa(int numero, int pin, System.DateTime fecha, SOAPServicesTest.RemesaWS.Agencia agencia, SOAPServicesTest.RemesaWS.Moneda moneda, decimal monto, string estado);
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/ModificarRemesa", ReplyAction="http://tempuri.org/IRemesa/ModificarRemesaResponse")]
-        System.Threading.Tasks.Task<SOAPServicesTest.RemesaWS.Remesa> ModificarRemesaAsync(int numero, int pin, System.DateTime fecha, SOAPServicesTest.RemesaWS.Agencia agencia, SOAPServicesTest.RemesaWS.Moneda moneda, decimal monto, string estado);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/EliminarRemesa", ReplyAction="http://tempuri.org/IRemesa/EliminarRemesaResponse")]
-        void EliminarRemesa(int numero);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/EliminarRemesa", ReplyAction="http://tempuri.org/IRemesa/EliminarRemesaResponse")]
-        System.Threading.Tasks.Task EliminarRemesaAsync(int numero);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/ListarRemesas", ReplyAction="http://tempuri.org/IRemesa/ListarRemesasResponse")]
-        SOAPServicesTest.RemesaWS.Remesa[] ListarRemesas();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesa/ListarRemesas", ReplyAction="http://tempuri.org/IRemesa/ListarRemesasResponse")]
-        System.Threading.Tasks.Task<SOAPServicesTest.RemesaWS.Remesa[]> ListarRemesasAsync();
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IRemesaChannel : SOAPServicesTest.RemesaWS.IRemesa, System.ServiceModel.IClientChannel {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="RemesasWS.IRemesas")]
+    public interface IRemesas {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/CrearRemesa", ReplyAction="http://tempuri.org/IRemesas/CrearRemesaResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(SOAPServicesTest.RemesasWS.HoraExcedidaException), Action="http://tempuri.org/IRemesas/CrearRemesaHoraExcedidaExceptionFault", Name="HoraExcedidaException", Namespace="http://schemas.datacontract.org/2004/07/")]
+        SOAPServicesTest.RemesasWS.Remesa CrearRemesa(int pin, System.DateTime fecha, SOAPServicesTest.RemesasWS.Agencia agencia, SOAPServicesTest.RemesasWS.Moneda moneda, decimal monto);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/CrearRemesa", ReplyAction="http://tempuri.org/IRemesas/CrearRemesaResponse")]
+        System.Threading.Tasks.Task<SOAPServicesTest.RemesasWS.Remesa> CrearRemesaAsync(int pin, System.DateTime fecha, SOAPServicesTest.RemesasWS.Agencia agencia, SOAPServicesTest.RemesasWS.Moneda moneda, decimal monto);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/ObtenerRemesa", ReplyAction="http://tempuri.org/IRemesas/ObtenerRemesaResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(SOAPServicesTest.RemesasWS.HoraExcedidaException), Action="http://tempuri.org/IRemesas/ObtenerRemesaHoraExcedidaExceptionFault", Name="HoraExcedidaException", Namespace="http://schemas.datacontract.org/2004/07/")]
+        SOAPServicesTest.RemesasWS.Remesa ObtenerRemesa(int numero);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/ObtenerRemesa", ReplyAction="http://tempuri.org/IRemesas/ObtenerRemesaResponse")]
+        System.Threading.Tasks.Task<SOAPServicesTest.RemesasWS.Remesa> ObtenerRemesaAsync(int numero);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/ModificarRemesa", ReplyAction="http://tempuri.org/IRemesas/ModificarRemesaResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(SOAPServicesTest.RemesasWS.HoraExcedidaException), Action="http://tempuri.org/IRemesas/ModificarRemesaHoraExcedidaExceptionFault", Name="HoraExcedidaException", Namespace="http://schemas.datacontract.org/2004/07/")]
+        SOAPServicesTest.RemesasWS.Remesa ModificarRemesa(int numero, int pin, System.DateTime fecha, SOAPServicesTest.RemesasWS.Agencia agencia, SOAPServicesTest.RemesasWS.Moneda moneda, decimal monto, string estado);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/ModificarRemesa", ReplyAction="http://tempuri.org/IRemesas/ModificarRemesaResponse")]
+        System.Threading.Tasks.Task<SOAPServicesTest.RemesasWS.Remesa> ModificarRemesaAsync(int numero, int pin, System.DateTime fecha, SOAPServicesTest.RemesasWS.Agencia agencia, SOAPServicesTest.RemesasWS.Moneda moneda, decimal monto, string estado);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/EliminarRemesa", ReplyAction="http://tempuri.org/IRemesas/EliminarRemesaResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(SOAPServicesTest.RemesasWS.HoraExcedidaException), Action="http://tempuri.org/IRemesas/EliminarRemesaHoraExcedidaExceptionFault", Name="HoraExcedidaException", Namespace="http://schemas.datacontract.org/2004/07/")]
+        void EliminarRemesa(int numero);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/EliminarRemesa", ReplyAction="http://tempuri.org/IRemesas/EliminarRemesaResponse")]
+        System.Threading.Tasks.Task EliminarRemesaAsync(int numero);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/ListarRemesas", ReplyAction="http://tempuri.org/IRemesas/ListarRemesasResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(SOAPServicesTest.RemesasWS.HoraExcedidaException), Action="http://tempuri.org/IRemesas/ListarRemesasHoraExcedidaExceptionFault", Name="HoraExcedidaException", Namespace="http://schemas.datacontract.org/2004/07/")]
+        SOAPServicesTest.RemesasWS.Remesa[] ListarRemesas();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IRemesas/ListarRemesas", ReplyAction="http://tempuri.org/IRemesas/ListarRemesasResponse")]
+        System.Threading.Tasks.Task<SOAPServicesTest.RemesasWS.Remesa[]> ListarRemesasAsync();
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public interface IRemesasChannel : SOAPServicesTest.RemesasWS.IRemesas, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class RemesaClient : System.ServiceModel.ClientBase<SOAPServicesTest.RemesaWS.IRemesa>, SOAPServicesTest.RemesaWS.IRemesa {
+    public partial class RemesasClient : System.ServiceModel.ClientBase<SOAPServicesTest.RemesasWS.IRemesas>, SOAPServicesTest.RemesasWS.IRemesas {
         
-        public RemesaClient() {
+        public RemesasClient() {
         }
         
-        public RemesaClient(string endpointConfigurationName) : 
+        public RemesasClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public RemesaClient(string endpointConfigurationName, string remoteAddress) : 
+        public RemesasClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public RemesaClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public RemesasClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public RemesaClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public RemesasClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
-        public SOAPServicesTest.RemesaWS.Remesa CrearRemesa(int pin, System.DateTime fecha, SOAPServicesTest.RemesaWS.Agencia agencia, SOAPServicesTest.RemesaWS.Moneda moneda, decimal monto) {
+        public SOAPServicesTest.RemesasWS.Remesa CrearRemesa(int pin, System.DateTime fecha, SOAPServicesTest.RemesasWS.Agencia agencia, SOAPServicesTest.RemesasWS.Moneda moneda, decimal monto) {
             return base.Channel.CrearRemesa(pin, fecha, agencia, moneda, monto);
         }
         
-        public System.Threading.Tasks.Task<SOAPServicesTest.RemesaWS.Remesa> CrearRemesaAsync(int pin, System.DateTime fecha, SOAPServicesTest.RemesaWS.Agencia agencia, SOAPServicesTest.RemesaWS.Moneda moneda, decimal monto) {
+        public System.Threading.Tasks.Task<SOAPServicesTest.RemesasWS.Remesa> CrearRemesaAsync(int pin, System.DateTime fecha, SOAPServicesTest.RemesasWS.Agencia agencia, SOAPServicesTest.RemesasWS.Moneda moneda, decimal monto) {
             return base.Channel.CrearRemesaAsync(pin, fecha, agencia, moneda, monto);
         }
         
-        public SOAPServicesTest.RemesaWS.Remesa ObtenerRemesa(int numero) {
+        public SOAPServicesTest.RemesasWS.Remesa ObtenerRemesa(int numero) {
             return base.Channel.ObtenerRemesa(numero);
         }
         
-        public System.Threading.Tasks.Task<SOAPServicesTest.RemesaWS.Remesa> ObtenerRemesaAsync(int numero) {
+        public System.Threading.Tasks.Task<SOAPServicesTest.RemesasWS.Remesa> ObtenerRemesaAsync(int numero) {
             return base.Channel.ObtenerRemesaAsync(numero);
         }
         
-        public SOAPServicesTest.RemesaWS.Remesa ModificarRemesa(int numero, int pin, System.DateTime fecha, SOAPServicesTest.RemesaWS.Agencia agencia, SOAPServicesTest.RemesaWS.Moneda moneda, decimal monto, string estado) {
+        public SOAPServicesTest.RemesasWS.Remesa ModificarRemesa(int numero, int pin, System.DateTime fecha, SOAPServicesTest.RemesasWS.Agencia agencia, SOAPServicesTest.RemesasWS.Moneda moneda, decimal monto, string estado) {
             return base.Channel.ModificarRemesa(numero, pin, fecha, agencia, moneda, monto, estado);
         }
         
-        public System.Threading.Tasks.Task<SOAPServicesTest.RemesaWS.Remesa> ModificarRemesaAsync(int numero, int pin, System.DateTime fecha, SOAPServicesTest.RemesaWS.Agencia agencia, SOAPServicesTest.RemesaWS.Moneda moneda, decimal monto, string estado) {
+        public System.Threading.Tasks.Task<SOAPServicesTest.RemesasWS.Remesa> ModificarRemesaAsync(int numero, int pin, System.DateTime fecha, SOAPServicesTest.RemesasWS.Agencia agencia, SOAPServicesTest.RemesasWS.Moneda moneda, decimal monto, string estado) {
             return base.Channel.ModificarRemesaAsync(numero, pin, fecha, agencia, moneda, monto, estado);
         }
         
@@ -418,11 +468,11 @@ namespace SOAPServicesTest.RemesaWS {
             return base.Channel.EliminarRemesaAsync(numero);
         }
         
-        public SOAPServicesTest.RemesaWS.Remesa[] ListarRemesas() {
+        public SOAPServicesTest.RemesasWS.Remesa[] ListarRemesas() {
             return base.Channel.ListarRemesas();
         }
         
-        public System.Threading.Tasks.Task<SOAPServicesTest.RemesaWS.Remesa[]> ListarRemesasAsync() {
+        public System.Threading.Tasks.Task<SOAPServicesTest.RemesasWS.Remesa[]> ListarRemesasAsync() {
             return base.Channel.ListarRemesasAsync();
         }
     }

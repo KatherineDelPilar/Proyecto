@@ -10,3 +10,8 @@ G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServicesTe
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServicesTest\obj\Debug\SOAPServicesTest.csprojResolveAssemblyReference.cache
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServicesTest\obj\Debug\SOAPServicesTest.dll
 G:\UPC\Desarrollo para Sistemas Distribuidos\Proyecto\ProyectoDSD\SOAPServicesTest\obj\Debug\SOAPServicesTest.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServicesTest\bin\Debug\SOAPServicesTest.dll.config
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServicesTest\bin\Debug\SOAPServicesTest.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServicesTest\bin\Debug\SOAPServicesTest.pdb
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServicesTest\obj\Debug\SOAPServicesTest.dll
+G:\Java\workspace\Proyecto\ProyectoDSD\SOAPServicesTest\obj\Debug\SOAPServicesTest.pdb

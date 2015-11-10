@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SOAPServicesTest.RemesaWS;
+using SOAPServicesTest.RemesasWS;
 
 namespace SOAPServicesTest
 {
@@ -10,8 +10,8 @@ namespace SOAPServicesTest
         [TestMethod]
         public void ConsultarEstadoRemesa()
         {
-            RemesaWS.RemesaClient proxy = new RemesaWS.RemesaClient();            
-            Remesa remesaObtener = proxy.ObtenerRemesa(3);
+            RemesasWS.RemesasClient proxy = new RemesasWS.RemesasClient();            
+            Remesa remesaObtener = proxy.ObtenerRemesa(2);
             Assert.AreNotEqual(null, remesaObtener);
         }
 

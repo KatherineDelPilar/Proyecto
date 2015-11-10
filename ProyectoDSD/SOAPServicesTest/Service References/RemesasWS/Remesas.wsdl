@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Remesas" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2835/Remesas.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2835/Remesas.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+      <xsd:import schemaLocation="http://localhost:2835/Remesas.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRemesas_CrearRemesa_InputMessage">
+    <wsdl:part name="parameters" element="tns:CrearRemesa" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_CrearRemesa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CrearRemesaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_CrearRemesa_HoraExcedidaExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/" name="detail" element="q1:HoraExcedidaException" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ObtenerRemesa_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerRemesa" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ObtenerRemesa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerRemesaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ObtenerRemesa_HoraExcedidaExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/" name="detail" element="q2:HoraExcedidaException" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ModificarRemesa_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarRemesa" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ModificarRemesa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarRemesaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ModificarRemesa_HoraExcedidaExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/" name="detail" element="q3:HoraExcedidaException" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_EliminarRemesa_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarRemesa" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_EliminarRemesa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarRemesaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_EliminarRemesa_HoraExcedidaExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/" name="detail" element="q4:HoraExcedidaException" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ListarRemesas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarRemesas" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ListarRemesas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarRemesasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRemesas_ListarRemesas_HoraExcedidaExceptionFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/" name="detail" element="q5:HoraExcedidaException" />
+  </wsdl:message>
+  <wsdl:portType name="IRemesas">
+    <wsdl:operation name="CrearRemesa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRemesas/CrearRemesa" message="tns:IRemesas_CrearRemesa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRemesas/CrearRemesaResponse" message="tns:IRemesas_CrearRemesa_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IRemesas/CrearRemesaHoraExcedidaExceptionFault" name="HoraExcedidaExceptionFault" message="tns:IRemesas_CrearRemesa_HoraExcedidaExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerRemesa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRemesas/ObtenerRemesa" message="tns:IRemesas_ObtenerRemesa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRemesas/ObtenerRemesaResponse" message="tns:IRemesas_ObtenerRemesa_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IRemesas/ObtenerRemesaHoraExcedidaExceptionFault" name="HoraExcedidaExceptionFault" message="tns:IRemesas_ObtenerRemesa_HoraExcedidaExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarRemesa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRemesas/ModificarRemesa" message="tns:IRemesas_ModificarRemesa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRemesas/ModificarRemesaResponse" message="tns:IRemesas_ModificarRemesa_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IRemesas/ModificarRemesaHoraExcedidaExceptionFault" name="HoraExcedidaExceptionFault" message="tns:IRemesas_ModificarRemesa_HoraExcedidaExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarRemesa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRemesas/EliminarRemesa" message="tns:IRemesas_EliminarRemesa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRemesas/EliminarRemesaResponse" message="tns:IRemesas_EliminarRemesa_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IRemesas/EliminarRemesaHoraExcedidaExceptionFault" name="HoraExcedidaExceptionFault" message="tns:IRemesas_EliminarRemesa_HoraExcedidaExceptionFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarRemesas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRemesas/ListarRemesas" message="tns:IRemesas_ListarRemesas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRemesas/ListarRemesasResponse" message="tns:IRemesas_ListarRemesas_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IRemesas/ListarRemesasHoraExcedidaExceptionFault" name="HoraExcedidaExceptionFault" message="tns:IRemesas_ListarRemesas_HoraExcedidaExceptionFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRemesas" type="tns:IRemesas">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CrearRemesa">
+      <soap:operation soapAction="http://tempuri.org/IRemesas/CrearRemesa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="HoraExcedidaExceptionFault">
+        <soap:fault use="literal" name="HoraExcedidaExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerRemesa">
+      <soap:operation soapAction="http://tempuri.org/IRemesas/ObtenerRemesa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="HoraExcedidaExceptionFault">
+        <soap:fault use="literal" name="HoraExcedidaExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarRemesa">
+      <soap:operation soapAction="http://tempuri.org/IRemesas/ModificarRemesa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="HoraExcedidaExceptionFault">
+        <soap:fault use="literal" name="HoraExcedidaExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarRemesa">
+      <soap:operation soapAction="http://tempuri.org/IRemesas/EliminarRemesa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="HoraExcedidaExceptionFault">
+        <soap:fault use="literal" name="HoraExcedidaExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ListarRemesas">
+      <soap:operation soapAction="http://tempuri.org/IRemesas/ListarRemesas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="HoraExcedidaExceptionFault">
+        <soap:fault use="literal" name="HoraExcedidaExceptionFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Remesas">
+    <wsdl:port name="BasicHttpBinding_IRemesas" binding="tns:BasicHttpBinding_IRemesas">
+      <soap:address location="http://localhost:2835/Remesas.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

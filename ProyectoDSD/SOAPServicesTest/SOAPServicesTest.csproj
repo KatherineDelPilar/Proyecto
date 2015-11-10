@@ -53,47 +53,47 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Service References\RemesaWS\Reference.cs">
+    <Compile Include="RemesaTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\RemesasWS\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="RemesaTest.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Service References\RemesaWS\Remesa.xsd">
+    <None Include="Service References\RemesasWS\Remesas.wsdl" />
+    <None Include="Service References\RemesasWS\Remesas.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\RemesaWS\Remesa1.xsd">
+    <None Include="Service References\RemesasWS\Remesas1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\RemesaWS\Remesa2.xsd">
+    <None Include="Service References\RemesasWS\Remesas2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\RemesaWS\RemesaEjecutarOperacion.wsdl" />
-    <None Include="Service References\RemesaWS\SOAPServicesTest.RemesaWS.Remesa.datasource">
+    <None Include="Service References\RemesasWS\SOAPServicesTest.RemesasWS.Remesa.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\RemesaWS\" />
+    <WCFMetadataStorage Include="Service References\RemesasWS\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\RemesaWS\Remesa.disco" />
+    <None Include="Service References\RemesasWS\Remesas.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\RemesaWS\configuration91.svcinfo" />
+    <None Include="Service References\RemesasWS\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\RemesaWS\configuration.svcinfo" />
+    <None Include="Service References\RemesasWS\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\RemesaWS\Reference.svcmap">
+    <None Include="Service References\RemesasWS\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

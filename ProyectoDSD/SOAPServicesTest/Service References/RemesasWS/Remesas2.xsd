@@ -29,6 +29,12 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="Remesa" nillable="true" type="tns:Remesa" />
+  <xs:complexType name="HoraExcedidaException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DetalleError" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HoraExcedidaException" nillable="true" type="tns:HoraExcedidaException" />
   <xs:complexType name="ArrayOfRemesa">
     <xs:sequence>
       <xs:element minOccurs="0" maxOccurs="unbounded" name="Remesa" nillable="true" type="tns:Remesa" />
