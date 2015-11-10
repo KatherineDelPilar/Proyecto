@@ -1,8 +1,9 @@
 eclipse.preferences.version=1
 encoding//src/org/datacontract/schemas/_2004/_07/Agencia.java=UTF-8
+encoding//src/org/datacontract/schemas/_2004/_07/HoraExcedidaException.java=UTF-8
 encoding//src/org/datacontract/schemas/_2004/_07/Moneda.java=UTF-8
 encoding//src/org/datacontract/schemas/_2004/_07/Remesa.java=UTF-8
-encoding//src/org/tempuri/BasicHttpBinding_IRemesaStub.java=UTF-8
-encoding//src/org/tempuri/IRemesa.java=UTF-8
-encoding//src/org/tempuri/RemesaEjecutarOperacion.java=UTF-8
-encoding//src/org/tempuri/RemesaEjecutarOperacionLocator.java=UTF-8
+encoding//src/org/tempuri/BasicHttpBinding_IRemesasStub.java=UTF-8
+encoding//src/org/tempuri/IRemesas.java=UTF-8
+encoding//src/org/tempuri/Remesas.java=UTF-8
+encoding//src/org/tempuri/RemesasLocator.java=UTF-8
