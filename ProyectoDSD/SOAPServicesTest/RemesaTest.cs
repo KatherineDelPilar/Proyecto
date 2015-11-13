@@ -11,7 +11,7 @@ namespace SOAPServicesTest
         public void ConsultarEstadoRemesa()
         {
             RemesasWS.RemesasClient proxy = new RemesasWS.RemesasClient();            
-            Remesa remesaObtener = proxy.ObtenerRemesa(2);
+            Remesa remesaObtener = proxy.ObtenerRemesa(1);
             Assert.AreNotEqual(null, remesaObtener); 
         }
 
