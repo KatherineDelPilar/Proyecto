@@ -1,0 +1,7 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="RESTServices.Remesas" 
+    CodeBehind="Remesas.svc.cs" 
+    Factory="System.ServiceModel.Activation.WebServiceHostFactory"
+%>
